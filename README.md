@@ -2,10 +2,9 @@
 
 # Loong
 
-### Python Backend Engineer · AI Agent Engineering
+### Python 后端开发 · AI Agent 工程
 
-Building production-oriented backend systems, financial integrations,
-developer infrastructure, and tool-using AI agents.
+专注于 Python 后端系统、金融业务集成、异步架构与 Agent Harness 工程实践。
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
@@ -13,51 +12,23 @@ developer infrastructure, and tool-using AI agents.
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI_Agents-111111?logo=openai&logoColor=white" />
 </p>
 
 </div>
 
 ---
 
-## About Me
+## 关于我
 
-I'm a Python backend developer interested in building systems that go beyond simple CRUD APIs.
+我是一名 Python 后端开发者，关注的不只是 CRUD 和接口开发，
+更希望把复杂业务流程做成可追踪、可测试、可恢复、可维护的工程系统。
 
-My current focus is on:
+目前主要在做：
 
-- Production-oriented Python backend architecture
-- Financial system integrations and multi-party workflows
-- Event-driven systems and asynchronous processing
-- Tool-using AI Agents and Agent Harnesses
-- RAG, structured reasoning, evaluation and safety boundaries
-- Developer infrastructure with Docker, PostgreSQL, Redis and messaging systems
-
-I care about turning complex business workflows into systems that are
-**traceable, testable, recoverable and maintainable**.
-
----
-
-## Featured Projects
-
-### [python-fund-mock](https://github.com/loongzcode/python-fund-mock)
-
-A Python-based mock service for multi-funder credit integration testing.
-
-- Implements 26 interfaces for the current SuShang Bank mock integration
-- FastAPI + Pydantic + SQLAlchemy + Alembic
-- Supports credit, loan, repayment and asynchronous callback workflows
-- Includes delayed-success, failure, timeout and other configurable mock scenarios
-- Introduces a `FunderAdapter` abstraction for future multi-funder integrations
-- Uses persistent state transitions instead of returning static mock JSON
-
-```text
-HTTP Request
-     ↓
-Funder Adapter
-     ↓
-Domain State
-     ↓
-Async Task / Callback
-     ↓
-Persistent Result
+- Python / FastAPI 后端架构
+- 金融业务系统与多资金方接入
+- PostgreSQL / Redis / RabbitMQ 等基础设施
+- 异步任务与事件驱动架构
+- AI Agent / Agent Harness
+- RAG、工具调用、上下文工程与评测
+- Docker / WSL 开发环境
